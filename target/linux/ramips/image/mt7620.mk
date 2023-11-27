@@ -492,6 +492,17 @@ define Device/hiwifi_hc5861
 endef
 TARGET_DEVICES += hiwifi_hc5861
 
+define Device/hiwifi_hc5861-32m
+  SOC := mt7620a
+  IMAGE_SIZE := 32448k
+  DEVICE_VENDOR := HiWiFi
+  DEVICE_MODEL := HC5861-32M
+  DEVICE_PACKAGES := kmod-mt76x2 kmod-usb2 kmod-usb-ohci kmod-sdhci-mt7620 \
+	kmod-usb-ledtrig-usbport
+  SUPPORTED_DEVICES += hc5861-32m
+endef
+TARGET_DEVICES += hiwifi_hc5861-32m
+
 define Device/hiwifi_r33
   SOC := mt7620a
   DEVICE_VENDOR := HiWiFi
