@@ -11,3 +11,5 @@ src-git telephony https://github.com/openwrt/telephony.git;openwrt-23.05
 #src-link custom /usr/src/openwrt/custom-feed
 src-git freifunk https://github.com/freifunk/openwrt-packages.git
 src-git helloworld https://github.com/fw876/helloworld.git
+src-git kenzo https://github.com/kenzok8/openwrt-packages
+src-git passwall https://github.com/xiaorouji/openwrt-passwall
